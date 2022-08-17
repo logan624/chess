@@ -2,6 +2,6 @@
 #include "BoardDisplay.h"
 
 int main() {
-    displayBoard();
+    displayPopulatedBoard();
     return 0;
 }
