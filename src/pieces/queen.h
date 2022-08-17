@@ -7,6 +7,17 @@
 
 
 class queen {
+    public:
+        queen()
+        {
+
+        }
+
+        ~queen()
+        {
+            
+        }
+    private:
 
 };
 

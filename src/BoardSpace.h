@@ -6,28 +6,32 @@
 #define CHESS_BOARDSPACE_H
 
 // Include all the piece objects' header files
-
+#include "pieces/piece.h"
+#include "pieces/bishop.h"
+#include "pieces/king.h"
+#include "pieces/knight.h"
+#include "pieces/pawn.h"
+#include "pieces/queen.h"
+#include "pieces/rook.h"
 
 class BoardSpace {
-    //Constructor
-    BoardSpace()
-    {
+    public:
+        //Constructor
+        BoardSpace()
+        {
 
-    }
+        }
 
-    //Destructor
-    ~BoardSpace()
-    {
+        //Destructor
+        ~BoardSpace()
+        {
 
-    }
+        }
 
+        //Pass in a board space -- eventually pass in a specific piece object here
+        //  and overwrite the text by going through a switch-case statement
+        BoardSpace* SetSpace(BoardSpace* space, Piece piece);
+    private:
 };
-
-//Pass in a board space -- eventually pass in a specific piece object here
-//  and overwrite the text by going through a switch-case statement
-BoardSpace* SetSpace(BoardSpace* space)
-{
-    return space;
-}
 
 #endif //CHESS_BOARDSPACE_H

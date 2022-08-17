@@ -7,6 +7,17 @@
 
 
 class king {
+    public:
+        king()
+        {
+
+        }
+
+        ~king()
+        {
+            
+        }
+    private:
 
 };
 

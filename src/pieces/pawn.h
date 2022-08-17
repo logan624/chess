@@ -7,6 +7,17 @@
 
 
 class pawn {
+    public:
+        pawn()
+        {
+
+        }
+
+        ~pawn()
+        {
+            
+        }
+    private:
 
 };
 

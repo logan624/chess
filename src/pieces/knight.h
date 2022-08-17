@@ -7,6 +7,17 @@
 
 
 class knight {
+    public:
+        knight()
+        {
+
+        }
+
+        ~knight()
+        {
+            
+        }
+    private:
 
 };
 

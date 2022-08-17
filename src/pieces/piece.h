@@ -6,13 +6,17 @@
 #define CHESS_PIECE_H
 
 
-class piece {
+class Piece {
 public:
-    piece() {}
+    Piece() {}
+    void getColor()
+    {
+        
+    }
 private:
-    virtual ~piece() = default;
+    virtual ~Piece() = default;
 protected:
-    virtual bool move() = 0;
+    // virtual bool move() = 0;
 
 };
 

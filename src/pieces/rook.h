@@ -7,6 +7,17 @@
 
 
 class rook {
+    public:
+        rook()
+        {
+
+        }
+
+        ~rook()
+        {
+            
+        }
+    private:
 
 };
 

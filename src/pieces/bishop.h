@@ -7,6 +7,17 @@
 
 
 class bishop {
+    public:
+        bishop()
+        {
+
+        }
+
+        ~bishop()
+        {
+            
+        }
+    private:
 
 };
 
