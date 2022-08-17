@@ -1,6 +1,7 @@
 #include <iostream>
+#include "BoardDisplay.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    displayBoard();
     return 0;
 }
